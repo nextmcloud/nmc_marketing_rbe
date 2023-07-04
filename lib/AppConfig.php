@@ -7,9 +7,8 @@
  *
  */
 
-namespace OCA\Nmcmarketing;
+namespace OCA\NmcMarketing;
 
-use OCA\Nmcmarketing\AppInfo\Application;
 use \OCP\IConfig;
 
 class AppConfig {

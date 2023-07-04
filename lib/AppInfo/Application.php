@@ -2,7 +2,7 @@
 
 namespace OCA\Nmcmarketing\AppInfo;
 
-use OCA\Nmcmarketing\Listener\CSPListener;
+use OCA\NmcMarketing\Listener\CSPListener;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;

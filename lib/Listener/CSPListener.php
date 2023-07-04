@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace OCA\NmcMarketing\Listener;
 
-use OCP\IConfig;
-use OCP\IRequest;
+use OCP\AppFramework\Http\EmptyContentSecurityPolicy;
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
-use OCP\AppFramework\Http\EmptyContentSecurityPolicy;
+use OCP\IConfig;
+use OCP\IRequest;
 use OCP\Security\CSP\AddContentSecurityPolicyEvent;
 
 class CSPListener implements IEventListener {
